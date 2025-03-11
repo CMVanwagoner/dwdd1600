@@ -1,0 +1,98 @@
+
+
+  .oxygen-light {
+    font-family: "Oxygen", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .oxygen-regular {
+    font-family: "Oxygen", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .oxygen-bold {
+    font-family: "Oxygen", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  body {
+    font-family: "Oxygen", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+/*Header section Styling*/  
+header {
+    background-color: #1c1c1c;
+    color: #dfdfdf;
+    margin: 0;
+    padding: .5rem 2vw .25rem 2vw;
+    text-align: center;
+}
+/*Nav section styling*/
+nav {
+    margin: 0;
+    padding: 1rem 2vw;
+    background-color: #1c1c1c;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #dfdfdf;
+    background-color: #1c1c1c;
+    font-weight: 700;
+    display: block;
+    padding: .2rem 1vw;
+}
+
+/*main section styling*/
+main {
+    margin: 2vw 10vw;
+    padding: 1rem 2vw;
+    background-color: #F9F4AB;
+    border: #1c1c1c;
+}
+
+main a:hover {
+    color: rgb(239, 0, 24)
+}
+
+main p {
+  margin: 2vw 10vw;
+}
+
+main ol {
+  margin: 0vw 10vw;
+}
+
+main address {
+  margin: 2vw 10vw; 
+}
+
+main ul {
+  margin: 0vw 10vw; 
+}
+
+main dl {
+  margin: 0vw 10vw; 
+}
+/*footer section styling*/
+
+footer {
+    background-color: #1c1c1c;
+    text-align: center; 
+    color: #dfdfdf;
+    padding: 1rem 0;
+    font-size: .8rem;
+  }
