@@ -1,0 +1,168 @@
+.oxygen-light {
+    font-family: "Oxygen", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .oxygen-regular {
+    font-family: "Oxygen", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .oxygen-bold {
+    font-family: "Oxygen", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  body {
+    font-family: "Oxygen", serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #dfdfdf;
+  }
+
+/*Header section Styling*/  
+header {
+    background-color: #1c1c1c;
+    color: #dfdfdf;
+    margin: 0;
+    padding: .5rem 2vw .25rem 2vw;
+    text-align: center;
+}
+/*Nav section styling*/
+nav {
+    margin: 0;
+    padding: 1rem 2vw;
+    background-color: #1c1c1c;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #dfdfdf;
+    background-color: #1c1c1c;
+    font-weight: 700;
+    display: block;
+    padding: .2rem 1vw;
+}
+
+/*main section styling*/
+main {
+  margin: 2vw 10vw;
+  padding: 1rem 2vw;
+  background-color: #F9F4AB;
+  border: 2px solid #1c1c1c;
+  border-radius: .5rem;
+}
+
+main h1 {
+  letter-spacing: .3vw;
+}
+
+main h2 {
+  letter-spacing: .2vw;
+} 
+
+main.home_main{
+  margin: 2vw 10vw;
+  padding: 1rem 2vw;
+  background-color: #dfdfdf;
+  border: #1c1c1c;
+}
+
+main.courses_main{
+  margin: 2vw 10vw;
+  padding: 1rem 2vw;
+  background-color: #dfdfdf;
+  border: #1c1c1c;
+}
+
+main.about_main{
+  margin: 2vw 10vw;
+  padding: 1rem 2vw;
+  background-color: #dfdfdf;
+  border: #1c1c1c;
+}
+
+main.start_about{
+  margin: 2vw 10vw;
+  padding: 1rem 2vw;
+  background-color: #dfdfdf;
+  border: #1c1c1c;
+}
+
+main a:hover {
+    color: rgb(239, 0, 24)
+}
+
+main p {
+  margin: 2vw 10vw;
+}
+
+main ol {
+  margin: 0vw 10vw;
+}
+
+main address {
+  margin: 2vw 10vw; 
+}
+
+main ul {
+  margin: 0vw 10vw; 
+}
+
+main dl {
+  margin: 0vw 10vw; 
+}
+
+/* figure stuff here */
+
+figure.home {
+  width: 30%;
+  margin: 0 0 0 2%;
+  float: right;
+}
+
+figure.home img {
+ width: 100%;
+ height: auto;
+}
+
+figure.home figcaption {
+  text-align: center;
+  font-size: .75rem;
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.gallery figure {
+  margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+  text-align: center;
+  font-size: .8rem;
+  color: #1c1c1c;
+}
+
+/*footer section styling*/
+
+footer {
+    background-color: #1c1c1c;
+    text-align: center; 
+    color: #dfdfdf;
+    padding: 1rem 0;
+    font-size: .8rem;
+  }
