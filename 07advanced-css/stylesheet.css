@@ -68,6 +68,17 @@ nav .active a {
   color: #F9F4AB;
 }
 
+nav a:hover {
+  background-color: #dfdfdf;
+  background-image: linear-gradient(to bottom, #F9F4AB, #c4c087);
+  color: #1c1c1c;
+}
+
+.courses_main{
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
 } /* end of media query*/
 
 @media only screen and (min-width: 601px) {
@@ -139,7 +150,14 @@ main.courses_main{
   padding: 1rem 2vw;
   background-color: #F9F4AB;
   border: #1c1c1c;
+  max-width: 64rem;
+  margin: 0 auto;
 }
+
+/*.main{
+  max-width: 64rem;
+  margin: 0 auto;
+}*/
 
 main.about_main{
   margin: 2vw 10vw;
@@ -150,6 +168,11 @@ main.about_main{
 
 .gallery img:hover {
   box-shadow: 0px 0px 10px rgba(0,0,0,2);
+}
+
+.gallery div figure img {
+  width: 100%;
+  height: auto;
 }
 
 main.start_about{
@@ -307,6 +330,11 @@ footer {
 }
 
 main {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.main{
   max-width: 64rem;
   margin: 0 auto;
 }
