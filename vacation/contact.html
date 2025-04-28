@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Vacation</title>
+    <link rel="stylesheet" href="vacation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oxygen:wght@300;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Budget Vacations</h1>
+        <p>More Fun For Less</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destination.html">Destinations</a></li>
+            <li><a href="gallery.html">Demonstration</a></li>
+            <li><a href="packages.html">Deals</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Contact Us</h1>
+        <p>Ready to book your own Budget Vacation? Sign up now to get in contact with our trip advisors and plan your
+            next getaway!</p>
+        <form method="get" class="contact" action="response.html">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label>First Name<input type="text" name="first_name" required placeholder="Bill"></label>
+            <label>Last Name<input type="text" name="last_name" required placeholder="Billington"></label>
+            <label>Phone Number<input type="tel" name="phone" required placeholder="(123) 456-7890"></label>
+            <label>Email<input type="email" name="email" required placeholder="billiambillington@billy.com"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Select your package</legend>
+            <label><input type="radio" name="package" value="san_diego">San Diego</label>
+            <label><input type="radio" name="package" value="bahamas">The Bahamas</label>
+            <label><input type="radio" name="package" value="yellowstone">Yellowstone</label>
+            <label><input type="radio" name="package" value="hawaii">Hawaii</label>
+            <label><input type="radio" name="package" value="stgeorge">Saint George</label>
+            <label><input type="radio" name="package" value="yosemite">Yosemite</label>
+        </fieldset>
+        <fieldset>
+            <legend>Allow Budget Vacations to contact you via</legend>
+                <label><input type="checkbox" name="email" value="chosen">Email</label>
+                <label><input type="checkbox" name="call" value="chosen">Phone Call</label>
+                <label><input type="checkbox" name="sms" value="chosen">SMS</label>
+                <label><input type="checkbox" name="videocall" value="chosen">Video Call</label>
+        </fieldset>
+        <fieldset>
+            <legend>Call Availability</legend>
+            <select name="time">
+                <option value="none">Select Availability</option>
+                <option value="day">9:00am - 12:00pm</option>
+                <option value="noon">12:00pm - 3:00pm</option>
+                <option value="evening">3:00pm - 6:00pm</option>
+                <option value="night">6:00pm - 9:00pm</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Comments</legend>
+            <label><textarea></textarea></label>
+        </fieldset>  
+        <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Budget Vacations - Cohen Van Wagoner 2025</p>
+    </footer>
+</body>
+
+</html>
